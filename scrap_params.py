@@ -1,3 +1,3 @@
-credentials = ['johndoeua', 'Qwer!234']
-boats_list = 'C:/Users/lexx/PycharmProjects/WebScrapper/boatslist.txt'
-scrap_results = 'C:/Users/lexx/PycharmProjects/WebScrapper/boatsdatabase.txt'
+credentials = ['login', 'pass'] # free registration available at fleetmon.com
+boats_list = '[projectfullpathname/]boatslist.txt' # Data should be in next format: "CertificateNumber ShipName IMONumber ExpirationDate", space-separated
+scrap_results = '[projectfullpathname/]boatsdatabase.txt' # in JSON format, separate line for every vessel.
